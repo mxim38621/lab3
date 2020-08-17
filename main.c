@@ -1,13 +1,12 @@
 #include <stdio.h>
-int main(void)
+int main(void) 
 {
-  float a, b;
-  float ans;
-  printf("Enter base : ");
-  scanf("%f", &a);
-  printf("Enter high : ");
-  scanf("%f", &b);
-  ans = 0.5*a*b;
-  printf("Answer is %0.2f", ans);
+float area,r,h;
+   		printf("input radius : ");
+   		scanf("%f",&r);
+   		printf("input high : ");
+		scanf("%f",&h);
+   		area = (2*22/7*r)*h+2*(22/7*r*r);
+   		printf("area = %0.2f",area);
   return 0;
 }
