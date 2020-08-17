@@ -2,10 +2,12 @@
 int main(void)
 {
   float a, b;
-  printf("Enter A : ");
+  float ans;
+  printf("Enter base : ");
   scanf("%f", &a);
-  printf("Enter B : ");
+  printf("Enter high : ");
   scanf("%f", &b);
-  printf("%f + %f = %f", a, b, a+b);
+  ans = 0.5*a*b;
+  printf("Answer is %0.2f", ans);
   return 0;
 }
