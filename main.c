@@ -6,6 +6,7 @@ int main(void)
   scanf("%f", &a);
   printf("Enter B : ");
   scanf("%f", &b);
-  printf("%f + %f = %f", a, b, a+b);
+  printf("%0.2f * %0.2f = %0.2f", a, b, a*b);
   return 0;
 }
+
